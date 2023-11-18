@@ -1,0 +1,32 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1700342588
+settingsControl.gd::GDScript::-1::1700176349::0::1::::<>Node2D<>::
+::res://assets/::1699989613
+icon.svg::CompressedTexture2D::544542835684041270::1699893119::1699989020::1::::<><>::
+Low Poly Cleaver.glb::PackedScene::6192657154982208833::1699989613::1699989613::1::::<><>::
+Steampunk Rifle.glb::PackedScene::7350502057921905713::1699981178::1699989009::1::::<><>::
+::res://enemies/::1700262572
+bulitHitEnemy.gd::GDScript::-1::1700024713::0::1::::<>Area3D<>::
+enemy.gd::GDScript::-1::1700262572::0::1::::<>CharacterBody3D<>::
+enemy.tscn::PackedScene::2014247005010979210::1700173451::0::1::::<><>::res://enemies/enemy.gd<>res://enemies/bulitHitEnemy.gd
+::res://gun/::1700262573
+bullet.gd::GDScript::-1::1700081018::0::1::::<>Node3D<>::
+bullet.tscn::PackedScene::2301655501069216088::1700173451::0::1::::<><>::res://gun/bullet.gd
+gun.tscn::PackedScene::4229258763444776624::1700262573::0::1::::<><>::uid://dcyvxvngl2jph::::res://assets/Steampunk Rifle.glb
+::res://items/::1700173451
+knife.tscn::PackedScene::4774585005769819394::1700173451::0::1::::<><>::uid://cuh1fnk8sl6x6
+::res://player/::1700290505
+character.tscn::PackedScene::3691214511716752199::1700289278::0::1::::<><>::res://player/player.gd<>uid://b1ixjkwurymui::::res://gun/gun.tscn<>uid://caa3ynnohy6cs::::res://items/knife.tscn<>uid://dlvdtnu14pe4r::::res://player/ui.tscn
+player.gd::GDScript::-1::1700289278::0::1::::<>CharacterBody3D<>::
+score.gd::GDScript::-1::1700290505::0::1::::<>Control<>::
+ui.tscn::PackedScene::7974908059915717251::1700173451::0::1::::<><>::res://player/score.gd<>uid://h01snlkj8v3s
+::res://scenes/::1700262573
+FOVslider.gd::GDScript::-1::1700175570::0::1::::<>HSlider<>::
+main.gd::GDScript::-1::1700247806::0::1::::<>Node3D<>::
+main.tscn::PackedScene::5399515020704206422::1700262572::0::1::::<><>::uid://bsub074btdgpj::::res://player/character.tscn<>res://scenes/main.gd<>uid://3xymbdgojevi::::res://enemies/enemy.tscn
+settings.tscn::PackedScene::4231795456160347100::1700262573::0::1::::<><>::res://settingsControl.gd<>res://scenes/FOVslider.gd
+start.tscn::PackedScene::5835962901843412330::1700262572::0::1::::<><>::res://scripts/startButton.gd<>res://scripts/settingsButton.gd
+::res://scripts/::1700175278
+gv.gd::GDScript::-1::1700175278::0::1::::<>Node<>::
+settingsButton.gd::GDScript::-1::1700173354::0::1::::<>Button<>::
+startButton.gd::GDScript::-1::1700173354::0::1::::<>Button<>::

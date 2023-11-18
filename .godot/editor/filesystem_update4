@@ -1,0 +1,9 @@
+res://scenes/main.tscn
+res://scenes/main.gd
+res://scenes/start.tscn
+res://player/character.tscn
+res://scenes/settings.tscn
+res://player/player.gd
+res://gun/gun.tscn
+res://enemies/enemy.gd
+res://player/score.gd

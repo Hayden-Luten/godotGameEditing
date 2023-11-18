@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://b1j6b2e1xmay3"]
+
+[ext_resource type="Script" path="res://settingsControl.gd" id="1_itex0"]
+[ext_resource type="Script" path="res://scenes/FOVslider.gd" id="2_ashvc"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_itex0")
+
+[node name="back" type="Button" parent="."]
+offset_left = 58.0
+offset_top = 50.0
+offset_right = 133.0
+offset_bottom = 109.0
+text = "back to main"
+
+[node name="fov" type="HSlider" parent="."]
+offset_left = 135.0
+offset_top = 256.0
+offset_right = 424.0
+offset_bottom = 317.0
+min_value = 30.0
+max_value = 120.0
+value = 50.0
+ticks_on_borders = true
+script = ExtResource("2_ashvc")
+
+[node name="fovLabel" type="Label" parent="."]
+offset_left = 192.0
+offset_top = 229.0
+offset_right = 232.0
+offset_bottom = 252.0
+text = "FOV: "
+
+[connection signal="pressed" from="back" to="." method="_on_back_pressed"]
+[connection signal="drag_ended" from="fov" to="." method="_on_fov_drag_ended"]

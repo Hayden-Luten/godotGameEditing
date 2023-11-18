@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=3 uid="uid://cpe8prsk7b1ji"]
+
+[ext_resource type="Script" path="res://scripts/startButton.gd" id="1_dw235"]
+[ext_resource type="Script" path="res://scripts/settingsButton.gd" id="2_rpk6k"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="start" type="Button" parent="."]
+offset_left = 1025.0
+offset_top = 483.0
+offset_right = 1303.0
+offset_bottom = 739.0
+text = "Play"
+script = ExtResource("1_dw235")
+
+[node name="settings" type="Button" parent="."]
+offset_left = 719.0
+offset_top = 483.0
+offset_right = 997.0
+offset_bottom = 739.0
+text = "settings"
+script = ExtResource("2_rpk6k")
+
+[connection signal="pressed" from="start" to="start" method="_on_pressed"]
+[connection signal="pressed" from="settings" to="settings" method="_on_pressed"]
