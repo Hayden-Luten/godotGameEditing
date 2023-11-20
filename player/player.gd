@@ -10,7 +10,6 @@ const SENSITIVITY = 0.001
 @onready var gun = $head/camera/gun
 @onready var knife = $head/camera/knife
 @onready var knife_anim = $head/camera/knife/Swing
-@onready var hit = $ShapeCast3D
 @onready var pauseMenu = $CanvasLayer/pause
 var interval = false
 

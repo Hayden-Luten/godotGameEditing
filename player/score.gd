@@ -5,7 +5,7 @@ extends Control
 @onready var melee = $meleeOutline
 @onready var health = $health
 
-func _process(delta):
+func _process(_delta):
 	scoreLabel.text = str(gv.score)
 	if gv.equipped == "primary":
 		primary.visible = true

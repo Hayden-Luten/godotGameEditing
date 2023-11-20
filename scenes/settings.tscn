@@ -1,10 +1,10 @@
 [gd_scene load_steps=3 format=3 uid="uid://b1j6b2e1xmay3"]
 
-[ext_resource type="Script" path="res://settingsControl.gd" id="1_itex0"]
+[ext_resource type="Script" path="res://scripts/settingsControl.gd" id="1_rx72l"]
 [ext_resource type="Script" path="res://scenes/FOVslider.gd" id="2_ashvc"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_itex0")
+script = ExtResource("1_rx72l")
 
 [node name="back" type="Button" parent="."]
 offset_left = 58.0

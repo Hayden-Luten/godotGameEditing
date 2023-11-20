@@ -17,10 +17,8 @@ func _process(delta):
 	if raycast.is_colliding():
 		mesh.visible = false
 		particles.emitting = true
-		print(raycast.get_collider())
 		if raycast.get_collider().is_in_group("enemy"):
 			raycast.get_collider().hit()
-		await get_tree().create_timer(1.0).timeout
 		queue_free()
 
 func _on_timer_timeout():
