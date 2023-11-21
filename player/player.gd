@@ -14,7 +14,7 @@ const SENSITIVITY = 0.001
 var interval = false
 
 
-var bullets = load("res://gun/bullet.tscn")
+var bullets = load("res://items/bullet.tscn")
 var instance
 
 # Get the gravity from the project settings to be synced with RigidBody nodes

@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://bsub074btdgpj"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_5mk6q"]
-[ext_resource type="PackedScene" uid="uid://b1ixjkwurymui" path="res://gun/gun.tscn" id="2_adm26"]
+[ext_resource type="PackedScene" uid="uid://b1ixjkwurymui" path="res://items/gun.tscn" id="2_adm26"]
 [ext_resource type="PackedScene" uid="uid://caa3ynnohy6cs" path="res://items/knife.tscn" id="3_mqxpy"]
 [ext_resource type="PackedScene" uid="uid://dlvdtnu14pe4r" path="res://player/ui.tscn" id="4_s4yrx"]
 

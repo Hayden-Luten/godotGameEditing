@@ -1,5 +1,6 @@
-CSGBox3D
 MeshInstance3D
+Decal
+CSGBox3D
 Label
 Button
 Container

@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://b1ixjkwurymui"]
 
-[ext_resource type="PackedScene" uid="uid://dcyvxvngl2jph" path="res://assets/Steampunk Rifle.glb" id="1_ket7k"]
+[ext_resource type="PackedScene" uid="uid://dcyvxvngl2jph" path="res://assets/Steampunk Rifle.glb" id="1_fm0m2"]
 
 [sub_resource type="Animation" id="Animation_kk4jq"]
 resource_name = "shoot"
@@ -24,7 +24,7 @@ _data = {
 "shoot": SubResource("Animation_kk4jq")
 }
 
-[node name="gun" instance=ExtResource("1_ket7k")]
+[node name="gun" instance=ExtResource("1_fm0m2")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.52656, -0.268274, -0.744188)
 
 [node name="Node" parent="." index="0"]
