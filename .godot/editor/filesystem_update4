@@ -1,10 +1,11 @@
-res://player/character.tscn
-res://bullet.tscn
-res://items/bullet.tscn
 res://scenes/start.tscn
 res://scenes/main.tscn
+res://player/character.tscn
 res://scenes/settings.tscn
 res://items/gun.tscn
 res://enemies/enemy.tscn
+res://items/bullet.tscn
 res://objects/gun_shop.tscn
+res://enemies/enemy.gd
+res://player/score.gd
 res://player/player.gd

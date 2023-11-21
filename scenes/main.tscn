@@ -61,7 +61,7 @@ size = Vector3(3.2781, 1.04017, 3.47855)
 material = SubResource("ORMMaterial3D_qm4ic")
 
 [node name="gunShop" parent="NavigationRegion3D" instance=ExtResource("4_s7pqv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.8471, 1.50891, 3.62618)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.8471, 0.997916, 3.62618)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_5yg1a")

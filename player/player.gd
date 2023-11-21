@@ -93,4 +93,5 @@ func _on_menu_button_pressed():
 	gv.health = 0
 
 func _on_btg_button_pressed():
-	Input.action_press("escape")
+	pauseMenu.hide()
+	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

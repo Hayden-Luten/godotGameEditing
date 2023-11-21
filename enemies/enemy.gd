@@ -3,7 +3,7 @@ extends CharacterBody3D
 @onready var player = get_parent().get_node("character")
 
 @onready var gravity = 9.8
-var speed = 500
+var speed = 100
 var hitRange = 1
 @onready var nav_agent = $NavigationAgent3D
 var interval = true
@@ -32,7 +32,6 @@ func _process(delta):
 	move_and_slide()
 	if global_position.distance_to(player.global_position) < hitRange == true and interval == true:
 		gv.health -= 1
-		player.get_node("CanvasLayer").get_node("ui").on_hit()
 		interval = false
 	elif global_position.distance_to(player.global_position) < hitRange == true and interval == false and double == 0:
 		double = 1

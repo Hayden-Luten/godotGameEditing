@@ -14,9 +14,6 @@ func _process(_delta):
 		primary.visible = false
 		melee.visible = true
 	health.text = str(gv.health)
-	
-func on_hit():
 	if gv.health < 1:
 		get_tree().change_scene_to_file("res://scenes/start.tscn")
 		Input.set_mouse_mode(Input.MOUSE_MODE_CONFINED)
-		gv.health = 3
