@@ -15,10 +15,22 @@ size = Vector3(1.40792, 1, 4.233)
 material = SubResource("StandardMaterial3D_g5awh")
 
 [node name="Steampunk Rifle" parent="." instance=ExtResource("1_ysj2o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.744298, -1.39696)
-
-[node name="Decal" type="Decal" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.744, -1.4)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.09295, 0.739071, 0.054873)
+transform = Transform3D(0.309712, -0.0831796, 0, 0.787941, 0.0326949, 0, 0, 0, 1, -0.906198, 0.138575, -1.4)
 mesh = SubResource("BoxMesh_og27h")
+
+[node name="Label3D" type="Label3D" parent="MeshInstance3D"]
+transform = Transform3D(0.0141318, 0.638745, -0.0780644, 0.0364638, 0.356633, 12.537, 0.846533, -0.00776567, -0.00337951, 0.353873, 0.809504, 0)
+pixel_size = 0.001
+modulate = Color(0, 0, 0, 1)
+text = "test"
+font_size = 256
+
+[node name="Label3D2" type="Label3D" parent="MeshInstance3D"]
+transform = Transform3D(0.0141318, 0.638745, -0.0780644, 0.0364638, 0.356633, 12.537, 0.846533, -0.00776567, -0.00337951, -0.0223331, 0.599455, 0.00457382)
+pixel_size = 0.001
+modulate = Color(0, 0, 0, 1)
+text = "50 coins"
+font_size = 256
